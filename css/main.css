@@ -13,9 +13,9 @@ header {
 
 }
 .content p {
-	
-	
-	
+
+
+
 }
 p {
 	font-size: 1.5rem;
@@ -52,6 +52,7 @@ padding-bottom: 50px;
 .separator {
 	margin-bottom: 30px;
 }
-#gmap {
-	
+
+#sidenav-overlay {
+  z-index: 1;
 }
