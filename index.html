@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Nano template</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body >
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper teal lighten-3">
+        <div class="nav-wrapper purple lighten-1">
           <a href="#" class="brand-logo">Ti'Moun</a>
           <ul class="right">
             <li><a href="">A propos</a></li>
@@ -20,25 +21,56 @@
         </div>
       </nav>
     </div>
-    <header class="grey lighten-5">
+    <header>
       <div class="content">
         <div class="responsive-img">
-          <img src="" alt="">
+          <img src="assets/logo-timoun-white.png" alt="Logo Timoun">
         </div>
-        <h1 class="center-align">Bienvenue sur le site de l'association Ti'Moun</h1>
-        <p class="center-align">L’association a pour objet le soutien à la parentalité et le bien être des enfants.</p>
+        <h1 class="center-align white-text">Bienvenue sur le site de l'association Ti'Moun</h1>
+        <p class="center-align white-text">L’association a pour objet le soutien à la parentalité et le bien être des enfants.</p>
+      </div>
+      <div class="overlay">
       </div>
     </header>
-    <section id="activites" class="section">
-      <div class="box grey center-align">
-        Café parents
+    <div id="section1" class="container">
+      <section class="row">
+        <h2>A propos</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </div>
+    <section id="section2" class="purple lighten-1">
+
+        <div class="row">
+        <div class="col s12 m5 offset-m1 ">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/cafe-parents.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Café parents<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Café parents<i class="material-icons right">close</i></span>
+              <p>Pour se rencontrer, échanger, partager son expérience et ses questionnements autour d’un thé ou d’un café en toute convivialité.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m5 ">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/ateliers.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Ateliers créatifs<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Ateliers créatifs<i class="material-icons right">close</i></span>
+              <p>Des articles et des ateliers pour découvrir les outils de communication libres et/ou gratuits disponibles.</p>
+            </div>
+          </div>
       </div>
-      <div class="box grey center-align">
-        Ateliers créatifs
-      </div>
-      <div class="box grey center-align">
-        Autres
-      </div>
+
+    </div>
     </section>
     <section id="contact" class="section">
 
