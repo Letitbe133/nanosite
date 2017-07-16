@@ -1,6 +1,14 @@
+h1 {
+  font-size: 3rem;
+}
+
 header {
   display: flex;
-  flex: 1;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: auto;
+}
+
+header h1, header p {
 }
