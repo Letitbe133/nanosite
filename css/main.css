@@ -4,11 +4,23 @@ h1 {
 
 header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  background-image: url("../assets/enfants.jpg");
+  background-size: cover;
+  height: 80vh;
 }
 
-header h1, header p {
+.content {
+  margin: auto;
+  justify-content: center;
+  flex-basis: 80%;
+}
+
+#activites {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  flex: 1;
+  flex-basis: 30%;
 }
