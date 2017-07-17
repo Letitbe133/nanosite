@@ -22,6 +22,14 @@ $(function(){
   $('.scrollspy').scrollSpy({scrollOffset: 30});
 
 
+// Initialisation modal
+  $('.modal').modal({
+    opacity: 0.2,
+    inDuration: 300
+  });
 
+  $('#modal-trigger').on('click', function(){
+    $('#modal').modal('close');
+  })
 
 })

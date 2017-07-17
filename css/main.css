@@ -1,3 +1,5 @@
+
+
 h1 {
   font-size: 3rem;
 }
@@ -46,13 +48,18 @@ p {
 padding-top: 50px;
 padding-bottom: 50px;
 }
-#cards {
-	display: flex!important;
-}
+
+
 .separator {
 	margin-bottom: 30px;
 }
 
 #sidenav-overlay {
   z-index: 1;
+}
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+footer p {
+	font-size: 1.3rem;
 }
