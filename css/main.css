@@ -33,9 +33,7 @@ p {
 }
 .logo {
 	z-index: 2;
-	position: absolute;
-	top:15px;
-	left:15px;
+	
 }
 .content {
   margin: auto;
