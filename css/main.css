@@ -1,7 +1,7 @@
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 1.8rem;
 }
 
 header {
@@ -14,11 +14,7 @@ header {
   height: 110vh;
 
 }
-.content p {
 
-
-
-}
 p {
 	font-size: 1.5rem;
 }
@@ -47,7 +43,9 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
-
+.activator img {
+	margin: 30px;
+}
 .separator {
 	margin-bottom: 30px;
 }
@@ -59,5 +57,5 @@ padding-bottom: 50px;
 	margin-bottom: 0!important;
 }
 footer p {
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
