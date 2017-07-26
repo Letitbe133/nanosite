@@ -100,7 +100,7 @@
               <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
             </div>
             <div class="card-reveal">
-              <h4 class="card-title">Le TinySite est responsive<i class="material-icons right">close</i></h4>
+              <h4 class="card-title">TinySite est responsive<i class="material-icons right">close</i></h4>
               <p>La moitié des internaute vous cherchent depuis leur mobile. Le TinySite s'adapte à tous les supports.</p>
               </div>
           </div>
@@ -123,7 +123,7 @@
 		</div>
 
 </section>
- 
+
 <section id="section2" class="cyan darken-2 scrollspy">
 
 	 <div class="container">
@@ -133,7 +133,7 @@
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
        </div>
-      
+
        <div class="row">
 			<div class="col s12 m6 l6 white-text">
 									<div class="center-align">
@@ -158,7 +158,7 @@
 				         	</div>
        </div>
       </div>
-   
+
 </section>
 
 <section id="contact" class="container scrollspy">
@@ -168,7 +168,7 @@
           </div>
 
         <div class="row">
-          <form class="col s12" action="#contact" method="post">
+          <form class="col s12" action="contact.php" method="POST">
 
             <div class="row">
               <div class="input-field col s12">
@@ -187,26 +187,26 @@
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">subject</i>
-                <input id="subject" name="objet" type="text" class="validate" required>
+                <input placeholder="Objet de votre message" id="subject" name="objet" type="text" class="validate" required>
                 <label for="subject">Sujet</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">textsms</i>
-                <textarea id="message" name="message" type="text" class="materialize-textarea" required></textarea>
+                <textarea placeholder="Votre message" id="message" name="message" type="text" class="materialize-textarea" required></textarea>
                 <label for="message">Votre message</label>
               </div>
             </div>
             <div class="row">
               <div class="col s12 center-align">
-                <button class="btn waves-effect waves-light cyan darken-3" type="submit" name="submit">Envoyer
+                <button class="btn waves-effect waves-light cyan darken-3" id="submit" type="submit" name="submit">Envoyer
                   <i class="material-icons right">send</i>
                 </button>
               </div>
             </div>
-            <div id="feedback" hidden>
-              <?php echo($feedback); ?>
+            <div id="feedback">
+              <?php echo $feedback; ?>
             </div>
           </form>
 
@@ -269,7 +269,7 @@
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" defer></script>
     <script type="text/javascript" src="js/main.js"></script>
     </script>
   </body>
