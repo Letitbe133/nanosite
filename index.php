@@ -17,7 +17,7 @@
 	<meta property="og:url" content="http://www.cooldev.xyz/TinySite">
 	<meta property="og:description" content="Nous accompagnons les petites entreprises et les indépendants dans leur présence numérique">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="assets/og-img.png">
+	<meta property="og:image" content="http://projets.cooldev.xyz/nano/assets/og-img.png">
 
   </head>
   <body >
