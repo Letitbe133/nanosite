@@ -17,8 +17,8 @@
 	<meta property="og:url" content="http://www.cooldev.xyz/TinySite">
 	<meta property="og:description" content="Nous accompagnons les petites entreprises et les indépendants dans leur présence numérique">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="assets/og-img.png">    
-    
+	<meta property="og:image" content="assets/og-img.png">
+
   </head>
   <body >
     <div class="navbar-fixed">
@@ -87,14 +87,14 @@
               	<li>Modifications : 49€ ht par modification</li>
               	<li>Maintenance : 49€/an (hébergement et renouvellement du nom de domaine en .fr ou .com)</li>
               </ul>
-              <p>Le TinySite que nous réalisons pour vous vous appartient. Vous pouvez à tout moment récuperer le code pour vous occuper vous-même de sa maintenance. Nous vous proposons même <a href="http://www.cooldev.xyz/formation-web.php" target="_blank"> une formation </a>pour ça ! 	
+              <p>Le TinySite que nous réalisons pour vous vous appartient. Vous pouvez à tout moment récuperer le code pour vous occuper vous-même de sa maintenance. Nous vous proposons même <a href="http://www.cooldev.xyz/formation-web.php" target="_blank"> une formation </a>pour ça !
               </div>
             </div>
           </div>
         <div class="col s12 m4 ">
           <div class="card">
             <div id="target" class="teal lighten-3 card-image waves-effect waves-block waves-light">
-					<img  src="assets/picto-responsive.png" alt="">            
+					<img  src="assets/picto-responsive.png" alt="">
             </div>
             <div class="card-content">
               <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
@@ -121,9 +121,11 @@
       </div>
       </div>
 		</div>
+
 </section>
  
 <section id="section2" class="cyan darken-2 scrollspy">
+
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
@@ -153,7 +155,7 @@
 				                 Ca sert à cela un site vitrine :)
 				              </p>
 				            </div>
-				         	</div>       
+				         	</div>
        </div>
       </div>
    
@@ -164,33 +166,35 @@
             <h2 class="dark-green center-align">Contactez-nous !</h2>
             <div class="col s12"></div>
           </div>
-        <div class="">
-          <form class="col s12">
+
+        <div class="row">
+          <form class="col s12" action="#contact" method="post">
+
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input placeholder="John Doe" id="name" type="text" class="validate">
+                <input placeholder="John Doe" id="name" name="nom" type="text" class="validate" required>
                 <label for="name">Votre nom</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">email</i>
-                <input placeholder="john.doe@mail.com" id="email"type="email" class="validate">
+                <input placeholder="john.doe@mail.com" id="email" name="email" type="email" class="validate" required>
                 <label for="email">Votre adresse mail</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">subject</i>
-                <input id="subject" type="text" class="validate">
+                <input id="subject" name="objet" type="text" class="validate" required>
                 <label for="subject">Sujet</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">textsms</i>
-                <textarea id="message" type="email" class="materialize-textarea"></textarea>
+                <textarea id="message" name="message" type="text" class="materialize-textarea" required></textarea>
                 <label for="message">Votre message</label>
               </div>
             </div>
@@ -201,8 +205,11 @@
                 </button>
               </div>
             </div>
+            <div id="feedback" hidden>
+              <?php echo($feedback); ?>
+            </div>
           </form>
-          
+
         </div>
       </section>
        <footer class="page-footer cyan darken-2 ">
@@ -220,15 +227,15 @@
               </div>
               <div class="center-align social col m4  s12">
                <h5 class="white-text">Réseaux sociaux </h5>
-            
+
                <div class="separator col s2 offset-s5 divider"></div>
                 <div class="col  s12 center-align">
                  <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
                  <a href="https://twitter.com/cooldev_crew" target="_blank" ><img src="assets/logo-twitter.png" alt="Suivez-nous sur Twitter"></a>
                 </div>
-                
-                  
-            
+
+
+
               </div>
               <div class="center-align col m4 s12">
                 <h5 class="white-text">Adresse</h5>
