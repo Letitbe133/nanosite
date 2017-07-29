@@ -6,21 +6,41 @@
   <head>
     <meta charset="utf-8"/>
     <title>TinySite | Un site web simple et efficace</title>
-    <meta name="keywords" content="Création de sites web, communication digitale, responsive, site vitrine">
+    <meta name="keywords" content="Création de sites web, communication digitale, responsive, site vitrine" />
     <meta name="publisher" content="cooldev">
-    <meta name="description" content="Un site web simple, efficace et abordable pour permettre à tous de faire grandir ses idées grâce au web">
-    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="Un site web simple, efficace et abordable pour permettre à tous de faire grandir ses idées grâce au web" />
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
+    <meta name="google-site-verification" content="rBRnpj5XSqUqYyI27OQ52hRYjk1PkW2Z1i3E9ces7oE" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
-	<meta property="og:title" content="TinySite | Un site web simple et efficace par Cooldev.xyz">
+	<meta property="og:title" content="TinySite | Un site web simple et efficace par Cooldev.xyz" />
 	<meta property="og:site_name" content="TinySite">
-	<meta property="og:url" content="http://tinysite.cooldev.xyz/">
-	<meta property="og:description" content="Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://tinysite.cooldev.xyz/nano/assets/og-img.png">
+	<meta property="og:url" content="http://tinysite.cooldev.xyz/" />
+	<meta property="og:description" content="Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://tinysite.cooldev.xyz/nano/assets/og-img.png" />
+
+
+<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//analytics.mpaw.xyz/piwik/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', '7']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+<!-- End Piwik Code -->
+
 
   </head>
   <body >
@@ -221,10 +241,10 @@
               <div class=" col m4 s12 center-align">
                 <h5 class="center-align white-text">Contacts</h5>
                 <div class="separator col s2 offset-s5 divider"></div>
-                <div class="col s12 m6 center-align">
+                <div class="col s12 xl6 center-align">
                	 <img src="assets/lio.png" alt="Lionel développeur web" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
                 </div>
-                <div class="col s12 m6 center-align ">
+                <div class="col s12 xl6 center-align ">
                	<img src="assets/mi.png" alt="Mylène chargée de projets web" width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
                 </div>
               </div>
@@ -255,11 +275,11 @@
                 <div class="modal-content">
                   <h3>SIRET</h3>
                   <p>Sous CAPE Cosens<br>SIRET : 419 369 798 00048 <br>N° Formateur : 93 13 113 41 13</p>
-                  <h3>Responsable de la publication :</h3> <p>Cooldev</p>
+                  <h3>Responsable de la publication :</h3> <p>Agence web <a href="http://cooldev.xyz">Cooldev</a></p>
                   <h3>Hébergement :</h3>
-                  <p>GANDI SAS, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 .</p>
+                  <p><a href="https://gandi.net">GANDI SAS</a>, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 .</p>
                   <h3>Gestion des données personnelles :</h3>
-                  <p>Votre vie privée est très importante pour nous. Pour connaître le trafic sur ce site internet, Nous utilisons Piwik. Piwik est une solution d’analytics qui respecte votre vie privée conformément aux recommandations de la CNIL et ne demande aucune déclaration préalable.</p>
+                  <p>Votre vie privée est très importante pour nous. Pour connaître le trafic sur ce site internet, Nous utilisons <a href="https://piwik.org">Piwik</a>. Piwik est une solution d’analytics qui respecte votre vie privée conformément aux recommandations de la CNIL et ne demande aucune déclaration préalable.</p>
                  </div>
                 <div class="modal-footer ">
                   <a href="#!" class="modal-action modal-close btn-floating "><i class="material-icons ">highlight_off</i></a>
