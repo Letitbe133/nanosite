@@ -13,7 +13,7 @@ $(function(){
     });
   }
 
-  setHeight();
+  //setHeight();
 
 // Initialisation sideNav
   $(".button-collapse").sideNav({
@@ -35,43 +35,7 @@ $(function(){
     $('#modal').modal('close');
   })
 
-  // // Initialisation toast
-  // $('button[type=submit]').on("click", function(){
-  //   setTimeout(function() {
-  //     var feedback = $('.feedback').text();
-  //     if(feedback.length > 0){
-  //       Materialize.toast(feedback, 7000);
-  //     }
-  //   }, 1000);
-  //   })
-
-  const MutationObserver = window.MutationObserver ||
-  window.WebKitMutationObserver ||
-  window.MozMutationObserver
-
-
-  var observer = new MutationObserver((changes) => {
-    console.log(changes);
-    changes.forEach((change) => {
-      console.log('Mutation', change);
-      if(change.type === 'characterData') {
-        console.info('text content', change.target.nodeValue)
-      }
-    });
-  });
-
-  var target = document.querySelector('#feedback');
-
-  var config = {
-    attributes: true,
-    childList: true,
-    characterData: true,
-    subtree: true
-  };
-
-  observer.observe(target, config);
-
-
+// Traitement ajax du formulaire
 
   // D'abord on sélectionne les éléments HTML pour pouvoir travailler
   // avec ensuite

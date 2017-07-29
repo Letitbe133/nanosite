@@ -4,20 +4,23 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <title>TinySite</title>
+    <meta charset="utf-8"/>
+    <title>TinySite | Un site web simple et efficace</title>
+    <meta name="keywords" content="Création de sites web, communication digitale, responsive, site vitrine">
+    <meta name="publisher" content="cooldev">
+    <meta name="description" content="Un site web simple, efficace et abordable pour permettre à tous de faire grandir ses idées grâce au web">
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
-	<meta property="og:title" content="TinySite | Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web">
-	<meta property="og:site_name" content="TyniSite">
-	<meta property="og:url" content="http://www.cooldev.xyz/TinySite">
-	<meta property="og:description" content="Nous accompagnons les petites entreprises et les indépendants dans leur présence numérique">
+	<meta property="og:title" content="TinySite | Un site web simple et efficace par Cooldev.xyz">
+	<meta property="og:site_name" content="TinySite">
+	<meta property="og:url" content="http://tinysite.cooldev.xyz/">
+	<meta property="og:description" content="Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://projets.cooldev.xyz/nano/assets/og-img.png">
+	<meta property="og:image" content="http://tinysite.cooldev.xyz/nano/assets/og-img.png">
 
   </head>
   <body >
@@ -42,7 +45,7 @@
     <div class="content">
         <div class="row">
           <div class="col s12 center-align">
-				<img class="responsive-img" src="assets/logo-white.png" alt="Logo TyniSite" width="200px">
+				<img class="responsive-img" src="assets/logo-white.png" alt="Logo TinySite" width="200px">
           </div>
           <div class="col s12 ">
             <h1 class="center-align white-text">Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web</h1>
@@ -50,8 +53,8 @@
           </div>
 
           <div class="col s12 social center-align">
-            <a href="https://www.facebook.com/cooldevcrew" target="_blank"><img class="responsive-img" src="assets/logo-fb.png" alt="facebook"></a>
-            <a href="https://twitter.com/cooldev_crew" target="_blank"><img class="responsive-img" src="assets/logo-twitter.png" alt="twitter"></a>
+            <a href="https://www.facebook.com/cooldevcrew" target="_blank"><img class="responsive-img" src="assets/logo-fb.png" alt="Lien vers facebook"></a>
+            <a href="https://twitter.com/cooldev_crew" target="_blank"><img class="responsive-img" src="assets/logo-twitter.png" alt="Lien vers twitter"></a>
           </div>
         </div>
       </div>
@@ -70,7 +73,7 @@
           <div class="col s12 m4 ">
             <div class="card">
               <div class="card-image orange lighten-2 waves-effect waves-block waves-light">
-                <img class="activator" src="assets/picto-pig.png">
+                <img class="activator" src="assets/picto-pig.png" alt="Un site web abordable">
               </div>
               <div class="card-content">
                 <h3 class="card-title activator">Abordable<i class="material-icons right">more_vert</i></h3>
@@ -94,28 +97,28 @@
         <div class="col s12 m4 ">
           <div class="card">
             <div id="target" class="teal lighten-3 card-image waves-effect waves-block waves-light">
-					<img  src="assets/picto-responsive.png" alt="">
+					<img  src="assets/picto-responsive.png" alt="Un site web adaptatif">
             </div>
             <div class="card-content">
               <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
             </div>
             <div class="card-reveal">
               <h4 class="card-title">TinySite est responsive<i class="material-icons right">close</i></h4>
-              <p>La moitié des internaute vous cherchent depuis leur mobile. Le TinySite s'adapte à tous les supports.</p>
+              <p>La moitié des internautes vous cherche depuis un mobile. Le TinySite s'adapte à tous les supports.</p>
               </div>
           </div>
         </div>
         <div class="col s12 m4 ">
           <div class="card">
             <div class="card-image  red accent-2 waves-effect waves-block waves-light">
-              <img class="activator" src="assets/picto-perso.png">
+              <img class="activator" src="assets/picto-perso.png" alt="Un site web évolutif">
             </div>
             <div class="card-content">
               <h3 class="card-title activator">Evolutif<i class="material-icons right ">more_vert</i></h3>
             </div>
             <div class="card-reveal">
               <span class="card-title">Vos besoins évoluent ?<i class="material-icons right">close</i></span>
-              <p>Votre site web vous suit ! Rajouter des sections, des pages...<br>Contactez-nous, nous vous proposerons des solutions adaptées.</p>
+              <p>Votre site web vous suit ! Ajouter des sections, des pages...<br>Contactez-nous, nous vous proposerons des solutions adaptées.</p>
             </div>
           </div>
       </div>
@@ -150,7 +153,7 @@
 				              <img width="80px;" src="assets/picto-shop-2.png" alt="Parlez de ce que vous faites">
 				            </div>
 				            <div>
-				              <p>Que faites vous et pourquoi le faites vous si bien ?<br/>
+				              <p>Que faites vous et pourquoi le faites-vous si bien ?<br/>
 				                 Du contenu de qualité favorise votre présence sur les moteurs de recherche et vos clients vous trouvent plus facilement !
 				                 Ca sert à cela un site vitrine :)
 				              </p>
@@ -219,17 +222,17 @@
                 <h5 class="center-align white-text">Contacts</h5>
                 <div class="separator col s2 offset-s5 divider"></div>
                 <div class="col s12 m6 center-align">
-               	 <img src="assets/lio.png" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+               	 <img src="assets/lio.png" alt="Lionel développeur web" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
                 </div>
                 <div class="col s12 m6 center-align ">
-               	<img src="assets/mi.png" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
+               	<img src="assets/mi.png" alt="Mylène chargée de projets web" width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
                 </div>
               </div>
               <div class="center-align social col m4  s12">
                <h5 class="white-text">Réseaux sociaux </h5>
 
                <div class="separator col s2 offset-s5 divider"></div>
-                <div class="col  s12 center-align">
+                <div class="col s12 center-align">
                  <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
                  <a href="https://twitter.com/cooldev_crew" target="_blank" ><img src="assets/logo-twitter.png" alt="Suivez-nous sur Twitter"></a>
                 </div>
