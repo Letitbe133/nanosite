@@ -116,8 +116,8 @@
           </div>
         <div class="col s12 m4 ">
           <div class="card">
-            <div id="target" class="teal lighten-3 card-image waves-effect waves-block waves-light">
-					<img  src="assets/picto-responsive.png" alt="Un site web adaptatif">
+            <div class="card-image teal lighten-3 card-image waves-effect waves-block waves-light">
+					<img  class="activator" src="assets/picto-responsive.png" alt="Un site web adaptatif">
             </div>
             <div class="card-content">
               <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
