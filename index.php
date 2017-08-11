@@ -152,9 +152,13 @@
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
-        <h2 class="center-align">Pourquoi votre présence sur le web est indispensable ?</h2>
+        <h2 class="center-align">Un TinySite, ça ressemble à quoi ?</h2>
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
+        <div class="col s12 center-align">
+        <img class="responsive-img" src="assets/structure-tinysite.png" alt="">
+        </div>
+        <!--<div class="separator col s2 offset-s5 divider"></div>
        </div>
 
        <div class="row">
@@ -178,7 +182,7 @@
 				                 Ca sert à cela un site vitrine :)
 				              </p>
 				            </div>
-				         	</div>
+				         	</div>-->
        </div>
       </div>
 
@@ -292,7 +296,7 @@
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" ></script>
     <script type="text/javascript" src="js/main.js"></script>
     </script>
   </body>

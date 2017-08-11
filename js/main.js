@@ -43,7 +43,7 @@ $(function(){
   const nom = document.querySelector('#name')
   const email = document.querySelector('#email')
   const objet = document.querySelector('#subject')
-  const message = document.querySelector('#message')
+  const mess = document.querySelector('#message')
   const submit = document.querySelector('#submit')
 
   // On créé une fonction handleForm qui va gérer le formulaire
@@ -61,7 +61,7 @@ $(function(){
     data.append('nom', nom.value)
     data.append('email', email.value)
     data.append('objet', objet.value)
-    data.append('message', message.value)
+    data.append('message', mess.value)
 
     // On créé une requête AJAX
     const ajaxRequest = new XMLHttpRequest()
