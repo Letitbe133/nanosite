@@ -21,6 +21,6 @@ if (isset($_POST['submit'])) {
 } else {
   $feedback = '';
 };
-echo $feedback;
+//echo $feedback;
 
 ?>

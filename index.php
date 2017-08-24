@@ -21,7 +21,7 @@
 	<meta property="og:url" content="http://tinysite.cooldev.xyz/" />
 	<meta property="og:description" content="Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://tinysite.cooldev.xyz/nano/assets/og-img.png" />
+	<meta property="og:image" content="http://tinysite.cooldev.xyz/assets/og-img.png" />
 
 
 <!-- Piwik -->
@@ -170,7 +170,7 @@
 	    </div>
 	
 	  <div class="row">
-	    <form class="col s12" action="contact.php" method="POST">
+	    <form class="col s12" action="#contact" method="POST">
 	
 	      <div class="row">
 	        <div class="input-field col s12">
